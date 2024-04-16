@@ -124,3 +124,19 @@ header p {
   text-align: center;
   width: 100%;
 }
+
+/*---------- DESTINATION ----------*/
+
+.destination {
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.destination p {
+  width: 70%;
+  margin-left: 15%;
+  line-height: 145%;
+  margin-top: 20px;
+  font-size: 90%;
+  padding-bottom: 150px;
+}
