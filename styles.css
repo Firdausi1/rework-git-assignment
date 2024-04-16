@@ -26,21 +26,10 @@ h1 {
 h3 {
   color: black;
   font-weight: 300;
-  padding-top: 150px;
   word-spacing: 3px;
   text-transform: uppercase;
   margin-bottom: 20px;
   font-size: 120%;
-}
-
-h3:after {
-  content: "";
-  background: rgb(19, 16, 16);
-  margin-top: 20px;
-  width: 100px;
-  margin: 0 auto;
-  height: 1px;
-  display: block;
 }
 
 h2 {
@@ -130,6 +119,7 @@ header p {
 .destination {
   text-align: center;
   background: #f4f4f4;
+  padding: 150px;
 }
 
 .destination p {
@@ -138,7 +128,6 @@ header p {
   line-height: 145%;
   margin-top: 20px;
   font-size: 90%;
-  padding-bottom: 150px;
 }
 
 /*---------- RESERVATION ----------*/
@@ -186,5 +175,46 @@ header p {
 
 .reservation h2 {
   font-weight: 400;
+}
+
+/*---------- images ----------*/
+
+.images {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.images ul {
+  list-style: none;
+  width: 90%;
+  display: flex;
+  margin-left: 5%;
+  margin-bottom: 50px;
+}
+
+.box {
+  display: block;
+  width: 30%;
+  margin: 1.66%;
+}
+
+.images img {
+  width: 100%;
+  height: auto;
+}
+
+.menu {
+  width: 85%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+}
+
+.menu p {
+  font-weight: 300;
+  font-size: 16px;
+  text-align: justify;
 }
 
