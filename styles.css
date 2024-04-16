@@ -218,3 +218,36 @@ header p {
   text-align: justify;
 }
 
+/*---------- FOOTER ----------*/
+
+.section-footer {
+  padding: 50px 0;
+  color: #ddd;
+  font-weight: 400;
+  font-size: 90%;
+  background: rgb(27, 27, 27);
+  width: 100%;
+}
+
+footer p {
+  color: #fff;
+}
+
+.section-footer div {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  width: 30%;
+  line-height: 145%;
+  margin: 2.5%;
+}
+
+.list li {
+  display: inline-block;
+  font-weight: 300;
+}
